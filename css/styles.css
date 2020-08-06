@@ -1,0 +1,28 @@
+html {
+            color: green;
+            font-family: sans-serif;
+            background: navy;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .boxes {
+            display: flex;
+            flex-flow: wrap;
+        }
+        .first, .second, .third, .fourth{
+            min-height: 50%;
+            width: 50%;
+            display: flex;
+            flex-flow: wrap;
+            justify-content: center;
+            align-items: center;
+            color: magenta;
+        }
+
+        h1 {
+            text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+            font-size: 100px;
+        }
